@@ -1,2 +1,11 @@
 # KLeRing-auxlang
-An auxiliary language project for KLeRing
+
+KLeRing の**サークル内統一人工言語**を策定するためのレポジトリ
+
+## 使い方
+
+### 語彙の提案
+
+1. (リンク)から単語の登録状況を確認する
+2. 新規 Issue を作成する
+  - 形式: `語彙の追加: 75. water`
