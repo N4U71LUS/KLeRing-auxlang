@@ -5,15 +5,14 @@ labels: ["提案中"]
 body:
   - type: markdown
     attributes:
-      label: 提案する概念（Swadesh リストの番号と概念名）
-      description: マスターチェックリスト Issue を開いて、未チェックの概念を1つ選ぶ。
-      value: 
+      value: |
+        ## 提案する概念（Swadesh リストの番号と概念名）
+        マスターチェックリスト Issue を開いて、未チェックの概念を1つ選んでください。
   - type: input
     id: concept
     attributes:
       label: 概念（番号＋名称）
       placeholder: "例: 75. water（水）"
-      value: 
     validations:
       required: true
   - type: textarea
@@ -22,7 +21,6 @@ body:
       label: 提案する語形
       description: この概念に付ける KLeRing 統一言語の単語形。
       placeholder: "例: maa"
-      value: 
     validations:
       required: true
   - type: textarea
@@ -30,26 +28,18 @@ body:
     attributes:
       label: 意味（gloss）
       description: 日本語での意味の整理。品詞や用法の補足もここに。
-      placeholder: "例: 水（名詞）"
-      value: 
   - type: textarea
     id: rationale
     attributes:
       label: 根拠・由来
-      description: なぜこの形にしたか（音韻イメージ・既存語との関係・発話のしやすさなど）。
-      value: 
+      description: なぜこの形にしたか（音韻イメージ・既存語との関係など）。
   - type: textarea
     id: alternates
     attributes:
       label: 対案（任意）
       description: 一緒に投票に回したい別の案がある場合。
-      value: 
   - type: markdown
     attributes:
-      label: 決まり方（lazy consensus）
-      description: |
+      value: |
+        ## 決まり方（lazy consensus）
         この提案に対して **7日間** 明確な異議・対案が出なければ **自動で確定** です。
-        異議・対案がある人は7日以内にこの Issue に書いてください。
-        複数の対立が起きた場合のみ投票に移ります。
-        確定したら `words.md` に1行追加し、マスターチェックリストの該当行をチェックしてください。
-      value: 
