@@ -1,38 +1,38 @@
-name: 単語提案（語彙の追加）
-description: マスターチェックリストの概念1つについて、KLeRing統一言語の単語案を提案する。
+name: 語彙の追加
+description: ((マスターチェックリスト))に記載の概念について、KLeRing 統一言語の語彙案を提案する。
 title: "語彙の追加: "
 labels: ["提案中"]
 body:
   - type: markdown
     attributes:
       value: |
-        ## 提案する概念（Swadesh リストの番号と概念名）
-        マスターチェックリスト Issue を開いて、未チェックの概念を1つ選んでください。
+        ## 提案する語彙 (Swadesh リストの番号と概念名)
+        ((マスターチェックリスト)) Issue を開いて、提案する語彙の登録状況を確認してください。
   - type: input
     id: concept
     attributes:
-      label: 概念（番号＋名称）
-      placeholder: "例: 75. water（水）"
+      label: 概念 (番号＋名称)
+      placeholder: "例: 75. water"
     validations:
       required: true
   - type: textarea
     id: word
     attributes:
-      label: 提案する語形
-      description: この概念に付ける KLeRing 統一言語の単語形。
+      label: 提案する語彙
+      description: この概念に付ける KLeRing 統一言語の語彙
       placeholder: "例: maa"
     validations:
       required: true
   - type: textarea
     id: gloss
     attributes:
-      label: 意味（gloss）
+      label: 意味
       description: 日本語での意味の整理。品詞や用法の補足もここに。
   - type: textarea
     id: rationale
     attributes:
       label: 根拠・由来
-      description: なぜこの形にしたか（音韻イメージ・既存語との関係など）。
+      description: なぜこの形にしたか (音韻イメージ・既存語との関係など)
   - type: textarea
     id: alternates
     attributes:
@@ -42,4 +42,4 @@ body:
     attributes:
       value: |
         ## 決まり方（lazy consensus）
-        この提案に対して **7日間** 明確な異議・対案が出なければ **自動で確定** です。
+        この提案に対して **7日間** 明確な異議・対案が出なければ **自動で確定** します。
