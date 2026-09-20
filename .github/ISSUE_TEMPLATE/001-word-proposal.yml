@@ -30,5 +30,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 決まり方（lazy consensus）
-        この提案に対して **7日間** 明確な異議・対案が出なければ **自動で確定** します。
+        ## 承認方法
+        lazy consensus: この提案に対して **7日間** 明確な異議・対案が出なければ **自動で確定** します。
