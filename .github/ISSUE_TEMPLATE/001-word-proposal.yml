@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        ## 提案する語彙 (Swadesh リストの番号と概念名)
+        ## 提案する語彙
         ((マスターチェックリスト)) Issue を開いて、提案する語彙の登録状況を確認してください。
   - type: input
     id: concept
