@@ -24,20 +24,10 @@ body:
     validations:
       required: true
   - type: textarea
-    id: gloss
+    id: notes
     attributes:
-      label: 意味
-      description: 日本語での意味の整理。品詞や用法の補足もここに。
-  - type: textarea
-    id: rationale
-    attributes:
-      label: 根拠・由来
+      label: 備考 (根拠・由来など)
       description: なぜこの形にしたか (音韻イメージ・既存語との関係など)
-  - type: textarea
-    id: alternates
-    attributes:
-      label: 対案（任意）
-      description: 一緒に投票に回したい別の案がある場合。
   - type: markdown
     attributes:
       value: |
