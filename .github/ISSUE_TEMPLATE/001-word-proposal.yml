@@ -1,5 +1,5 @@
 name: 語彙の追加
-description: ((マスターチェックリスト))に記載の概念について、KLeRing 統一言語の語彙案を提案する。
+description: [Swadesh 207 List 進捗表](https://github.com/N4U71LUS/KLeRing-auxlang/edit/main/.github/ISSUE_TEMPLATE/001-word-proposal.yml) に記載の概念について、KLeRing 統一言語の語彙案を提案する。
 title: "語彙の追加: "
 labels: ["提案中"]
 body:
