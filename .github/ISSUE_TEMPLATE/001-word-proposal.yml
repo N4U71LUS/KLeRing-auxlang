@@ -19,7 +19,6 @@ body:
     id: word
     attributes:
       label: 提案する語彙
-      description: この概念に付ける KLeRing 統一言語の語彙
       placeholder: "例: maa"
     validations:
       required: true
@@ -27,7 +26,7 @@ body:
     id: notes
     attributes:
       label: 備考 (根拠・由来など)
-      description: なぜこの形にしたか (音韻イメージ・既存語との関係など)
+      placeholder: "(あれば)"
   - type: markdown
     attributes:
       value: |
